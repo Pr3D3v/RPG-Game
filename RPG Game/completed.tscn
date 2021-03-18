@@ -1,0 +1,23 @@
+[gd_scene load_steps=2 format=2]
+
+[sub_resource type="Theme" id=1]
+
+[node name="completed" type="Node2D"]
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+modulate = Color( 0.898039, 1, 0.560784, 1 )
+self_modulate = Color( 1, 0.54902, 0.54902, 1 )
+light_mask = 98405
+margin_left = 106.134
+margin_top = 61.567
+margin_right = 427.134
+margin_bottom = 248.567
+size_flags_horizontal = 15
+size_flags_vertical = 15
+theme = SubResource( 1 )
+text = "YOU WON
+
+More levels coming soon :)"
+__meta__ = {
+"_edit_use_anchors_": false
+}

@@ -1,0 +1,31 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Label.gd" type="Script" id=1]
+
+[node name="main menu" type="Node2D"]
+
+[node name="Label" type="Label" parent="."]
+margin_top = -2.0
+margin_right = 321.0
+margin_bottom = 175.0
+size_flags_horizontal = 3
+size_flags_vertical = 6
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_colors/font_outline_modulate = Color( 0, 0, 0, 1 )
+custom_colors/font_color_shadow = Color( 0, 0, 0, 1 )
+text = "
+Press \"Space\" to continue 
+Controls \"WASD\" or \"arrow keys\" to move
+
+\"J\" or \"LMB\" to slash your sword
+\"K\" or \"Space\" to roll
+OBJECTIVE = kill the enemies(bats) on the way
+of finding a pipe and get inside it
+
+I added roll because I like to Rock and Roll"
+align = 1
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+scene = "res://World/World.tscn"
